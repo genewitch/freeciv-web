@@ -180,6 +180,7 @@ manual installation procedure to setup Freeciv-web:
      and update the values for your MySQL database.
    - Copy freeciv-web/src/main/webapp/meta/php_code/local.php.dist as local.php
      and edit to suit your needs.
+    - mkdir -p freeciv-web/resin/webapps ("resin" needs to be in the main freeciv-web folder cloned from git, not freeciv-web/freeciv-web (where the setup.sh is. it's ../ from there.)
    - Run 'setup.sh' in the freeciv-web directory
    - Copy nginx configuration file from publite2/nginx/freeciv-web
      to the nginx config directory, /usr/local/nginx/conf, /etc/nginx, or /usr/local/etc/nginx 
