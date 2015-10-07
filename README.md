@@ -147,6 +147,9 @@ Install this software if you are not running Freeciv-web with Vagrant:
 
 - liblzma-dev - http://tukaani.org/xz/ - for XZ compressed savegames.
 
+- ImageMagick-6 - built with png support; http://www.imagemagick.org/ - for freeciv-img-extract
+
+- ICU 55.x
 
 Compiling and running the Freeciv Web client (old method)
 ---------------------------------------------------------
